@@ -8,29 +8,29 @@
         android:id="@+id/homeFragment"
         android:name="com.example.klient_server_app.ui.HomeFragment"
         android:label="Главная"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home"/>
 
     <fragment
         android:id="@+id/catalogFragment"
         android:name="com.example.klient_server_app.ui.CatalogFragment"
         android:label="Каталог"
-        tools:layout="@layout/fragment_catalog" />
+        tools:layout="@layout/fragment_catalog"/>
 
     <fragment
         android:id="@+id/favoritesFragment"
         android:name="com.example.klient_server_app.ui.FavoritesFragment"
-        android:label="Любимое"
-        tools:layout="@layout/fragment_favorites" />
+        android:label="Избранное"
+        tools:layout="@layout/fragment_favorites"/>
 
     <fragment
         android:id="@+id/cartFragment"
         android:name="com.example.klient_server_app.ui.CartFragment"
         android:label="Корзина"
-        tools:layout="@layout/fragment_cart" />
+        tools:layout="@layout/fragment_cart"/>
 
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.klient_server_app.ui.ProfileFragment"
-        android:label="Кабинет"
-        tools:layout="@layout/fragment_profile" />
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile"/>
 </navigation>
